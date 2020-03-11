@@ -1,0 +1,31 @@
+.banner{
+  padding: 100px 0px;
+}
+img{
+  margin-top: 70px;
+  width: 250px;
+  height: 250px;
+
+}
+
+.work-banner{
+  padding: 150px 0px;
+}
+.about-banner{
+  clear: both;
+  padding: 150px 0px;
+}
+a{
+  color: rgb(185, 53, 5);
+}
+a:hover{
+  color: rgb(185, 53, 5);
+}
+li:hover{
+  text-decoration: underline;
+}
+
+.header li{
+  display: inline-block;
+  margin-right: 25px;
+}
