@@ -29,3 +29,10 @@ li:hover{
   display: inline-block;
   margin-right: 25px;
 }
+.path-error{
+  text-align: center;
+  margin-top: 25%;
+}
+.path-error p{
+  margin-top: 40px;
+}
