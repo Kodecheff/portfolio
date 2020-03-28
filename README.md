@@ -1,2 +1,2 @@
 
-A simple portfolio created by Akunne Pascal 
+A simple portfolio created with react.js
