@@ -36,3 +36,11 @@ li:hover{
 .path-error p{
   margin-top: 40px;
 }
+
+
+/* MEDIA QUERIES */
+@media (max-width: 580px){
+  img {
+    display: none;
+  }
+}
