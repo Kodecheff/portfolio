@@ -1,10 +1,23 @@
+.header h2{
+  text-shadow: 2px 2px rgb(185, 53, 5);
+}
+
 .banner{
+  position: relative;
   padding: 100px 0px;
 }
 img{
-  margin-top: 70px;
-  width: 250px;
-  height: 250px;
+  /* margin-top: 70px; */
+  /* width: 250px; */
+  /* height: 250px; */
+  position: fixed;
+  z-index: -9;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  height: 100%;
 
 }
 
@@ -16,10 +29,13 @@ img{
   padding: 150px 0px;
 }
 a{
-  color: rgb(185, 53, 5);
+  color: white;
+  text-shadow: 2px 2px rgb(185, 53, 5);
 }
 a:hover{
-  color: rgb(185, 53, 5);
+  color: white;
+  text-shadow: 2px 2px 3px rgb(185, 53, 5);
+  font-size: large;
 }
 li:hover{
   text-decoration: underline;
@@ -39,8 +55,8 @@ li:hover{
 
 
 /* MEDIA QUERIES */
-@media (max-width: 580px){
+/* @media (max-width: 580px){
   img {
     display: none;
   }
-}
+} */
