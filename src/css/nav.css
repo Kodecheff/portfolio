@@ -1,0 +1,28 @@
+a{
+  color: white;
+  text-shadow: 2px 2px rgb(185, 53, 5);
+}
+a:hover{
+  color: white;
+  text-shadow: 2px 2px 3px rgb(185, 53, 5);
+  font-size: large;
+}
+li:hover{
+  text-decoration: underline;
+  color: white;
+  text-shadow: 2px 2px 3px rgb(185, 53, 5);
+}
+.header button{
+  outline: none;
+}
+.header li{
+  display: inline-block;
+  margin-right: 25px;
+  color: white;
+  text-shadow: 2px 2px 3px rgb(185, 53, 5);
+}
+.nav-link{
+  color: white;
+  text-shadow: 2px 2px 3px rgb(185, 53, 5);
+
+}

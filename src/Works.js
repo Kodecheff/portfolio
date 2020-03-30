@@ -1,7 +1,6 @@
 import React from 'react'
 import Header from './component/Header';
 import Nav from './component/Nav';
-import './component/main.css';
 
 export default function Works() {
   return (

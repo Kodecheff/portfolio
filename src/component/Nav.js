@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link} from "react-router-dom";
+import '../css/nav.css'
 
 export default function Nav() {
   return (
@@ -14,9 +15,6 @@ export default function Nav() {
   <li class="nav-item">
     <Link class="nav-link" to="/About">About</Link>
   </li>
-  {/* <li class="nav-item">
-    <a class="nav-link disabled" href="/" tabindex="-1" aria-disabled="true">Disabled</a>
-  </li> */}
 </ul>
     </div>
   )

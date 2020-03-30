@@ -1,29 +1,32 @@
 import React from 'react';
+import Typewriter from 'typewriter-effect'
 import Header from './component/Header';
 import Nav from './component/Nav';
-import './component/main.css';
-import img from './img/about-banner.png';
+import './css/main.css';
+// import img from './img/about-banner.png';
 
 export default function About() {
   return (
-    <div>
+    <div className="about-me">
       <Header />
       
       <div className="container about-banner ">
-      <div className="mt-5 col-md-12 col-lg-12 col-sm-12 col-xs-12">
-        <div className="mt-5 col-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <p className="h2">
-            This is the portfolio of Pascal Akunne.<br />
-            Software(web) Developer.
+        <div className="mt-5 center-object">
+          <p>
+            <Typewriter
+              onInit={(typewriter) => {
+                typewriter.typeString('<span class="h3">About Me</span><br /><br />')
+                .pauseFor(1000)
+                .typeString(`Hi! I'm Pascal Akunne, a Software developer based in Nigeria.
+                 I'm interested in any freelancing/remote work. For further enquiries, 
+                 contact me by clicking on any <span style="color: orangered">link</span> above.`)
+                .changeCursor(' ')
+                .start();
+                }}
+                  />
           </p>
         </div>
-          <div class=" co l-lg-6 col-md-6 col-sm-6 col-xs-12">
-          <div class="">
-            <img src={img} alt="banner" />
-          </div>
-        </div>
-          <div className="clearfix"></div>
-        </div>
+          
       </div>
 
       <Nav />

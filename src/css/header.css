@@ -1,30 +1,6 @@
 .header h2{
   text-shadow: 2px 2px rgb(185, 53, 5);
 }
-
-.banner{
-  position: relative;
-  padding: 100px 0px;
-}
-img{
-  position: fixed;
-  z-index: -9;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  top: 0;
-  right: 0;
-  height: 100%;
-
-}
-
-.work-banner{
-  padding: 150px 0px;
-}
-.about-banner{
-  clear: both;
-  padding: 150px 0px;
-}
 a{
   color: white;
   text-shadow: 2px 2px rgb(185, 53, 5);
@@ -53,18 +29,3 @@ li:hover{
   text-shadow: 2px 2px 3px rgb(185, 53, 5);
 
 }
-.path-error{
-  text-align: center;
-  margin-top: 25%;
-}
-.path-error p{
-  margin-top: 40px;
-}
-
-
-/* MEDIA QUERIES */
-/* @media (max-width: 580px){
-  img {
-    display: none;
-  }
-} */

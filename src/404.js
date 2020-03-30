@@ -1,5 +1,5 @@
 import React from 'react';
-import './component/main.css';
+import './css/main.css'
 
 const PathError = () => {
   return(

@@ -1,15 +1,14 @@
 import React from 'react';
 import Typewriter from 'typewriter-effect';
-import './main.css';
 import img from '../img/home-banner.jpg';
+import '../css/banner.css'
 
 const Banner = () => {
   return(
     <div className="banner">
-     <div class="container">
-    <div class="row">
+     <div className="container">
       <div class="col-md-6 col-lg-6 col-sm-6 col-xs-12">
-      <p class="banner content ">
+      <p className="banner content ">
         <Typewriter
   onInit={(typewriter) => {
     typewriter.typeString('<span class="h5">Hi,</span><br />')
@@ -33,7 +32,6 @@ const Banner = () => {
     </div>
   </div>
   </div>
-    </div>
   )
 }
 
