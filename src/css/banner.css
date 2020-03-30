@@ -1,6 +1,8 @@
 .banner{
   position: relative;
   padding: 100px 0px;
+  color: rgb(253, 252, 252);
+  text-shadow: 2px 2px rgb(185, 53, 5);
 }
 img{
   position: fixed;
