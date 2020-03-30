@@ -11,12 +11,12 @@ export default function About() {
       <Header />
       
       <div className="container about-banner ">
-        <div className="mt-5 center-object">
+        <div className="mt-5 center-object ml-4 mr-4">
           <p>
             <Typewriter
               onInit={(typewriter) => {
                 typewriter.typeString('<span class="h3">About Me</span><br /><br />')
-                .pauseFor(1000)
+                .pauseFor(500)
                 .typeString(`Hi! I'm Pascal Akunne, a Software developer based in Nigeria.
                  I'm interested in any freelancing/remote work. For further enquiries, 
                  contact me by clicking on any <span style="color: orangered">link</span> above.`)
