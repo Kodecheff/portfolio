@@ -3,9 +3,19 @@ body{
   color: rgb(253, 252, 252);
 }
 
-
+/* WORK PAGE */
 .work-banner{
   padding: 150px 0px;
+}
+.myWork{
+  /* border: 1px solid rgb(185, 53, 5); */
+  box-shadow: 4px 6px 7px rgb(185, 53, 5);
+  width: 230px;
+  margin: 10px;
+  padding: 5px;
+}
+.myWork a{
+  margin: 5px;
 }
 
 

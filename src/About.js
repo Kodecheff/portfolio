@@ -17,9 +17,10 @@ export default function About() {
               onInit={(typewriter) => {
                 typewriter.typeString('<span class="h3">About Me</span><br /><br />')
                 .pauseFor(500)
-                .typeString(`Hi! I'm Pascal Akunne, a Software developer based in Nigeria.
-                 I'm interested in any freelancing/remote work. For further enquiries, 
-                 contact me by clicking on any <span style="color: orangered">link</span> above.`)
+                .typeString(`Hi! I'm Pascal Akunne, a Software developer based in Nigeria. I am a 
+                JavaScript(MERN) developer who loves and is always ready to build new innovative ideas.
+                I'm interested in any freelancing/remote work. For further enquiries, 
+                contact me by clicking on any <span style="color: orangered">link</span> above.`)
                 .changeCursor(' ')
                 .start();
                 }}
