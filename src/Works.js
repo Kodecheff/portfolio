@@ -26,7 +26,7 @@ export default function Works() {
         <h2>Mojin</h2>
         <p>A simple website template</p>
         <a href="https://github.com/kodecheff/khaldev">View Repo</a>
-        <a href="https://khal.netlify.com">View site</a>
+        <a href="https://khal.netlify.com">Visit site</a>
       </div>
       <div className="myWork">
         <h2>A simple calculator</h2>
@@ -44,6 +44,12 @@ export default function Works() {
         <h2>A todo app</h2>
         <p>A simple todo app developed in ReactJS</p>
         <a href="https://github.com/kodecheff/todo-app">View Repo</a>
+      </div>
+      <div className="myWork">
+        <h2>A weather app</h2>
+        <p>A weather app developed in NodeJS</p>
+        <a href="https://github.com/kodecheff/weather-app">View Repo</a>
+        <a href="https://kodecheff-weather-app.herokuapp.com">Visit site</a>
       </div>
     </div>
     </div>
